@@ -18,14 +18,14 @@ function Toolbar(props){
 
   return (
     <div style={styles.wrapper}>
-      {isLoggedIn && <span style={styles.greeting}>환영합니다!</span>}
 
       {isLoggedIn ? (
-        <button onClick ={ onClickLogout}>로그아웃</button>
+        <button onClick ={ onClickLogout}>라고할뻔</button>
       ) : (         
-        <button onClick ={ onClickLogin}>로그인</button>
+        <button onClick ={ onClickLogin}>FIRE</button>
 
       )}
+      {isLoggedIn && <span style={styles.greeting}>잘가라</span>}
     </div>
   );
 }
