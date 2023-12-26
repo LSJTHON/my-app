@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './Card.jsx';
+import './App.css';
 
 function App() {
   return (
